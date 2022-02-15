@@ -47,7 +47,7 @@ public class Bootcamp {
         this.devsInscritos = devsInscritos;
     }
 
-    public Collection<? extends Conteudo> getConteudos() {
+    public Set<Conteudo> getConteudos() {
         return conteudos;
     }
 
