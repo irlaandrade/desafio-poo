@@ -1,5 +1,6 @@
 package com.bootcampDesafio.desafio;
 
+import com.bootcampDesafio.desafio.dominio.Conteudo;
 import com.bootcampDesafio.desafio.dominio.Curso;
 import com.bootcampDesafio.desafio.dominio.Mentoria;
 
@@ -8,7 +9,6 @@ import java.time.LocalDate;
 public class DesafioApplication {
 	public static void main(String[] args) {
 		Curso curso1 = new Curso();
-
 		curso1.setTitulo("Curso Java");
 		curso1.setDescricao("Descrição do curso Java");
 		curso1.setCargaHoraria(8);
